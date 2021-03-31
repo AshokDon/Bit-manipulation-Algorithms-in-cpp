@@ -26,14 +26,14 @@ void PowerSet()
     {
         cin>>a[i];
     }
-    for(int num=0;num<(1<<n);num++)
+    for(int num=0;num<(1<<n);num++)//loop runs for 2 power n sence we will have 2 power n sub sets
     {
-        vector<int>sub;
-        for(int i=0;i<n;i++)
+        vector<int>sub;//empty array which is dynamic so vector 
+        for(int i=0;i<n;i++)//runs for n times 
         {
-            if(num&(1<<i))
+            if(num&(1<<i))//check the position is set or not if set pick the element
             {
-                sub.push_back(a[i]);
+                sub.push_back(a[i]);//pick and placed in the data structure
             }
         }
         for(auto it:sub)

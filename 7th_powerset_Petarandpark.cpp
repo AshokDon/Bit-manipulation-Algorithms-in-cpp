@@ -1,4 +1,5 @@
 //code force B.petr and a combination lock
+//https://codeforces.com/problemset/problem/1097/B 
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;

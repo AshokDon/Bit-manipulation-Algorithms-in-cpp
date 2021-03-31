@@ -1,5 +1,9 @@
 //we have an array [4,1,3] generate all sub subsequence
 //we can do this by power set
+// first know what is subarray and subsequency 
+//[4,1,3] -->subarrays-->[4],[4,1],[4,1,3],[1],[1,3],[3] continues parts
+//[4,1,3] -->subsequence -->[],[4],[1],[4,1],[3],[4,3],[1,3],[4,1,3] random pic but pic the index only once in the subsequence
+//we can use power set to generate the subsequence 
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
